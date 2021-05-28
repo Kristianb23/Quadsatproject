@@ -8,6 +8,9 @@ img {vertical-align: middle;}*/
     padding: 0;
     overflow-x: hidden;
   }
+  body {
+    background-color: #E0E0E0;
+  }
  
  /*mobil*/ 
 .navcolor {
@@ -21,6 +24,11 @@ img {vertical-align: middle;}*/
 
 
 /*burgermenu start*/
+
+.logo1 {
+  width: 50%;
+}
+
 .burgerbox {
     z-index: 1;
     width: 100%;
@@ -181,6 +189,10 @@ img {vertical-align: middle;}*/
     margin-bottom: 20%;
   }
 
+  .main-form {
+    display: none;
+  }
+
   @media only screen and (min-width: 1000px) {
     /*mobile*/
       .navcolor {
@@ -192,15 +204,40 @@ img {vertical-align: middle;}*/
     }
     
 
-    .logo1 {
-        width: 25%;
-        margin: 10px;
+    .logo2 {
+        width: 20%;
+        margin-left: 25px;
+      }
+
+
+      .first {
+        margin-top: 75px;
+        margin-left: 40px;
+        margin-bottom: 10px;
+        width: 40%;
+        float: left;
+      }
+    
+      .second {
+        margin-top: 75px;
+        margin-right: 40px;
+        margin-bottom: 10px;
+        width: 40%;
+        float: right;
+      }
+
+      .textsection {
+        display: grid;
+        grid-template-columns: 70% 25%;
+        grid-template-rows: auto;
+        font-size: 16px;
+        margin-left: 5%;
+        margin-right: 15%;
+        margin-bottom: 10%;
+        font-family: 'IBM Plex Sans', sans-serif;
       }
     /*mobile done*/
     
-      .logo1 {
-        width: 10%;
-      }
     
       
       nav {
@@ -267,6 +304,7 @@ img {vertical-align: middle;}*/
 
       /*kontaktform*/
     .main-form {
+      display: block;
       background-color: #0353E9;
       z-index: 1;
       width: 500px;
@@ -363,4 +401,4 @@ img {vertical-align: middle;}*/
       padding: 4px 8px;
       min-width: 200px;
     }
-    /*kontaktformslut*/
+/*kontaktform slut*/

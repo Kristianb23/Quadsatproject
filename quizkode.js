@@ -148,7 +148,7 @@ function showResult(){
     const scoreText = result_box.querySelector(".score_text");
     if (userScore > 3){
 
-        let scoreTag = '<span>Congratulation! you got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span>Congratulations! you got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
     }
     else if(userScore > 1){
