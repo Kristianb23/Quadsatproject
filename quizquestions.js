@@ -5,9 +5,9 @@ let questions = [
     answer: "In the plot view",
     options: [
       "In the plot view",
-      "today",
-      "today",
-      "today"
+      "In the scans",
+      "In the calibrations",
+      "At the Reference System"
     ]
   },
     {
@@ -15,10 +15,10 @@ let questions = [
     question: "If you want to measure from 0° to 360° to find out what the antennas horizontal range is, what scan type would you use?",
     answer: "A principal scan, with plane set on azimuth",
     options: [
-      "tomorrow",
+      "A principal scan, with plane set on horizontal",
       "A principal scan, with plane set on elevation",
       "A principal scan, with plane set on azimuth",
-      "today"
+      "A principal scan, with plane set on vertical"
     ]
   },
     {
@@ -27,20 +27,20 @@ let questions = [
     answer: "A principal scan, with plane set on elevation",
     options: [
       "A principal scan, with plane set on azimuth",
-      "today",
-      "today",
+      "A principal scan, with plane set on vertical",
+      "A principal scan, with plane set on horizontal",
       "A principal scan, with plane set on elevation"
     ]
   },
     {
     numb: 4,
     question: "How do you get the cross polar data?",
-    answer: "By matching it with the co polar data.",
+    answer: "By matching it with the co polar data",
     options: [
-      "tomorrow",
-      "By matching it with the co polar data.",
-      "today",
-      "today"
+      "By merging it with the co polar data",
+      "By matching it with the co polar data",
+      "By scanning it",
+      "By scanning the co polar data"
     ]
   },
     {
@@ -49,9 +49,9 @@ let questions = [
     answer: "When exporting the flight",
     options: [
       "When exporting the flight",
-      "today",
-      "today",
-      "today"
+      "During calibration",
+      "After exporting the flight",
+      "When inspecting the file"
     ]
   },
 
