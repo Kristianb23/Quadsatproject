@@ -267,4 +267,104 @@ img {vertical-align: middle;}*/
         background-color: #0353E9;
         color: white;
       }
+
+      .main-form {
+        background-color: #0353E9;
+        z-index: 1;
+        width: 500px;
+        height: 700px;
+        position: absolute;
+        top: 520px;
+        left: 600px;
+        padding: 32px 20px;
+      }
+    
+      .form-group {
+        position: relative;
+        margin-bottom: 28px;
+      }
+    
+      .gt-input {
+        width: 400px;
+        height: 48px;
+        padding: 0 20px;
+        font-size: 20px;
+        border: 0;
+      }
+    
+      .gt-text {
+        padding: 10px 20px;
+        height: 48px;
+        padding: 0 20px;
+        font-size: 20px;
+        border: 0;
+      }
+    
+      .gt-input:focus {
+        outline: none;
+      }
+    
+      label {
+        position: absolute;
+        font-size: 18px;
+        font-family:'IBM Plex Sans', sans-serif;
+        color: rgb(97, 97, 97);
+        transition: all .4s;
+        top: 24px;
+        transform: translateY(-50%);
+        margin-left: 24px;
+        cursor: text;
+        z-index: 100;
+      }
+    
+      .form-text {
+        position: absolute;
+        left: 10px;
+        top: 310px;
+        padding-left: 50px;
+        padding-right: 60px;
+        font-size: 25px;
+        line-height: 30px;
+        opacity: 95%;
+        font-family:'IBM Plex Sans', sans-serif;
+        color: white;
+      }
+    
+      .gt-button {
+        width: 200px;
+        height: 60px;
+        position: absolute;
+        left: 160px;
+        top: 650px;
+        font-size: 20px;
+        text-transform: none;
+        letter-spacing: 4px;
+        border: 1.5px solid white;
+        color: white;
+        background-color: #547ac0;
+        transition: .4s;
+      }
+    
+      .gt-button:hover {
+        background-color: #547ac0;
+        opacity: 75%;
+      }
+    
+      .form-status {
+        padding: 8px;
+        text-align: center;
+        color: white;
+        margin-top: 8px;
+        margin-bottom: -24px;
+      }
+    
+      .move-up {
+        margin-top: -15px;
+        margin-left: 350px;
+        font-size: 14px;
+        background: #41b3ff;
+        padding: 4px 8px;
+        min-width: 200px;
+      }
+
     }
