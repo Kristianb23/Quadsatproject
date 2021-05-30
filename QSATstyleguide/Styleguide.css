@@ -11,19 +11,20 @@
     height: 500px;
     padding: 10px;
 }
-    .Intro h1 {
+    .Intro h2 {
         font-family: 'IBM Plex Sans';
         padding-bottom:25px;
     }
     .Intro p {
         font-family: 'IBM Plex Sans'
     }
-.precolor h1 {
+.precolor h2 {
     font-size: 50px;
     padding-bottom: 25px;
     padding-left: 75px;
 }
-@media screen and (max-width: 992px) {
+
+@media screen and (max-width: 1000px) {
     .color-container {
         float:left;
         justify-content:flex-end;
@@ -32,32 +33,48 @@
 }
 .color-container{
     width:100%;
-    height:1080px;
+    height:500px;
 }
+
+.color-container h2 {
+    margin-left: 25%;
+    margin-top: 35%;
+}
+
+.color-container p {
+    margin-left: 25%;
+}
+
 .color {
     height: 100%;
-    width: 33%;
+    width: 25%;
     float: left;
     font-family: 'IBM Plex Sans';
 }
 
 .color1 {
-    left: 0;
     background-color: #ffffff;
 
 }
 .color2 {
-    left:33%;
+
     background-color: #044ada;
     color:white;
 }
 .color3 {
-    left: 66%;
     background-color: #3399ff;
     color: white;
 }
-.font h1 {
-    font-size: 50px;
+
+.color4 {
+
+    background-color: #E0E0E0;
+    color: black;
+}
+
+
+.font h2 {
+    font-size: 40px;
     padding-bottom: 25px;
     padding-left: 75px;
 }
@@ -66,16 +83,31 @@
     padding-bottom: 25px;
     padding-left: 75px;
 }
+
+.icons h2 {
+    font-size: 40px;
+}
+
 .icons {
     font-size: 50px;
     padding-bottom: 25px;
     padding-left: 75px;
 }
+
+.css h2 {
+    font-size: 40px;
+}
+
 .css {
     font-size: 50px;
     padding-bottom: 25px;
     padding-left: 75px;
 }
+
+.java h2 {
+    font-size: 40px;
+}
+
 .java {
     font-size: 50px;
     padding-bottom: 25px;
